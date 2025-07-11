@@ -1,0 +1,37 @@
+-- DROP TABLE IF EXISTS test_solar_data
+DROP TABLE IF EXISTS test_solar_data;
+
+CREATE TABLE test_solar_data (
+    id SERIAL PRIMARY KEY,
+    timestamp TIMESTAMP NOT NULL, 
+    pv1 FLOAT,
+    pv2 FLOAT,
+    pv3 FLOAT,
+    pv4 FLOAT,
+    pv5 FLOAT,
+    pv6 FLOAT,
+    pv7 FLOAT,
+    pv8 FLOAT,
+    pv9 FLOAT,
+    pv10 FLOAT,
+    mppt1a FLOAT,
+    mppt2a FLOAT,
+    mppt3a FLOAT,
+    mppt4a FLOAT,
+    mppt5a FLOAT,
+    mppt1v FLOAT,
+    mppt2v FLOAT,
+    mppt3v FLOAT,
+    mppt4v FLOAT,
+    mppt5v FLOAT,
+    phase_a_current FLOAT,
+    phase_b_current FLOAT,
+    phase_c_current FLOAT,
+    phase_a_voltage FLOAT,
+    phase_b_voltage FLOAT,
+    phase_c_voltage FLOAT,
+    total_dc_power FLOAT,
+    total_active_power FLOAT,
+    daily_yield FLOAT,
+    total_yield FLOAT
+);

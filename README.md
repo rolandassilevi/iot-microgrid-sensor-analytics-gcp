@@ -23,7 +23,7 @@ Collect IoT sensor data in a smart microgrid for analysis and anomaly detection;
 
 ## 🧠 Intégration Google Cloud SQL / Google Cloud SQL Integration
 
-Les données de capteurs sont migrées vers une base de données Google Cloud SQL (PostgreSQL ou MySQL), utilisée comme source principale pour les notebooks Python et les tableaux de bord (Power BI, Looker Studio).
+Les données de capteurs sont migrées vers une base de données Google Cloud SQL (PostgreSQL), utilisée comme source principale pour les notebooks Python et les tableaux de bord (Power BI, Looker Studio).
 
 Sensors' data is migrated to a Google Cloud SQL database (PostgreSQL or MySQL), used as the main data source for Python notebooks and dashboards (Power BI, Looker Studio).
 
